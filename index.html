@@ -74,6 +74,8 @@
   .benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
   .benefit-card{background:var(--paper);padding:32px 28px;}
   .benefit-num{font-family:'Fraunces',serif;font-size:14px;color:var(--brass);font-weight:600;margin-bottom:14px;}
+  .benefit-img{display:block;width:calc(100% + 56px);max-width:none;height:170px;object-fit:cover;margin:-32px -28px 22px;border-bottom:1px solid var(--line);}
+  .benefit-card{overflow:hidden;}
   .benefit-card h3{font-family:'Fraunces',serif;font-weight:500;font-size:19px;margin-bottom:10px;color:var(--navy);}
   .benefit-card p{color:var(--grey);font-size:14.5px;}
 
@@ -166,16 +168,19 @@
     </div>
     <div class="benefit-grid">
       <div class="benefit-card">
+        <img class="benefit-img" src="images/tr-pricing.jpg" alt="Cleaning and hygiene products" loading="lazy">
         <div class="benefit-num">01</div>
         <h3>Trade pricing</h3>
         <p>Account holders get trade rates across the full range, not just a single promotional line.</p>
       </div>
       <div class="benefit-card">
+        <img class="benefit-img" src="images/tr-invoice.jpg" alt="Invoice with pen and calculator" loading="lazy">
         <div class="benefit-num">02</div>
         <h3>One invoice, monthly terms</h3>
         <p>Payment due by the end of the month following the invoice date &mdash; one statement, not a pile of receipts.</p>
       </div>
       <div class="benefit-card">
+        <img class="benefit-img" src="images/tr-delivery.jpg" alt="Delivery van on the road" loading="lazy">
         <div class="benefit-num">03</div>
         <h3>Free island-wide delivery</h3>
         <p>Scheduled weekday delivery across the Isle of Man, with same-day options in covered areas.</p>
